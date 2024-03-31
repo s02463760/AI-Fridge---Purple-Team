@@ -11,9 +11,9 @@ st.sidebar.markdown("# Page 5 Text to Speech ❄️")
 
 speech_file_path = Path(__file__).parent / "newfile.mp3"
 
-#openai.api_key = os.environ["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"]
+#openai.api_key = os.environ["OPENAI_API_KEY"]
 
-client = OpenAI(api_key="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") 
+client = OpenAI(api_key="OPENAI_API_KEY") 
 
 def text_to_speech(text,path):
     response = client.audio.speech.create(
