@@ -23,7 +23,7 @@ Original file is located at
 import requests
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='')
 
 """# Function to Download an Image from a Given URL"""
 
