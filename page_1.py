@@ -4,8 +4,8 @@ import streamlit as st
 from openai import OpenAI
 
 
-st.markdown("# Page 1: Text Generation ❄️")
-st.sidebar.markdown("# Page 1: Text Generation ❄️")
+st.markdown("#Feature 1: Text Generation ❄️")
+st.sidebar.markdown("# Feature 1: Text Generation ❄️")
 
 #openai.api_key = os.environ["OPENAI_API_KEY"]
 
