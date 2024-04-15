@@ -1,3 +1,3 @@
-Page 1: Allow user keep track of and give suggestions/recommendations based on user input/data
-
-Page 5: Generate text to speech based on user input/data
+text_g.py: Allow user to keep track of and give suggestions/recommendations based on user input/data
+image.py: Allow user to know what is in the fridge which generates the specific item based on the user keyword
+Speech: Generate text to speech based on user input/data
