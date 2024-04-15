@@ -6,19 +6,19 @@ import requests
 from openai import OpenAI
 from pathlib import Path
 
-st.markdown("# Page 2: Image Generation (Lab 3) ❄️")
-st.sidebar.markdown("# Page 2: Image Generation ❄️")
+st.markdown("# Feature 2: Image Generation ❄️")
+st.sidebar.markdown("# Feature 2: Image Generation ❄️")
 
 #openai.api_key = os.environ["OPENAI_API_KEY"]
-
-client = OpenAI(api_key="OPENAI_API_KEY") 
+openai.api_key = "API"
+client = OpenAI(api_key="API") 
 
 def download_image(filename, url):
-  response = requests.get(url)
-  if response.status_code == 200:
+    response = requests.get(url)
+    if response.status_code == 200:
         with open(filename, 'wb') as file:
             file.write(response.content)
-  else:
+    else:
         print("Error downloading image from URL:", url)
 
 def filename_from_input(prompt):
