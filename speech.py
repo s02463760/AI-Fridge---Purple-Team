@@ -6,12 +6,12 @@ import requests
 from openai import OpenAI
 from pathlib import Path
 
-st.markdown("# Page 5 Text to Speech ❄️")
-st.sidebar.markdown("# Page 5 Text to Speech ❄️")
+st.markdown("#Feature 2: Text to Speech ❄️")
+st.sidebar.markdown("#Feature 2: Text to Speech ❄️")
 
 speech_file_path = Path(__file__).parent / "newfile.mp3"
 
-#openai.api_key = os.environ["OPENAI_API_KEY"]
+#openai.api_key = os.environ[""]
 
 client = OpenAI(api_key="OPENAI_API_KEY") 
 
