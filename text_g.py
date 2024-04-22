@@ -26,7 +26,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 
 # create our streamlit app
 with st.form(key = "chat"):
-    prompt = st.text_input("Enter an information you would like me to create: ") 
+    prompt = st.text_input("Hello, how can I help you today? ") 
     
     submitted = st.form_submit_button("Submit")
     
